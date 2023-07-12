@@ -10,13 +10,13 @@ I have read on reddit, that the local AND the roaming folder were necessary to b
 I had to activate scripts on Windows:
 
 - click data and open Powershell in Administrator mode
--- execute the following code
+  - execute the following code
 
 ```ps
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 ```
 
--- afterwards you can execute the script:
+- afterwards you can execute the script:
 
 ```ps
 ./backup-ghub.ps1
